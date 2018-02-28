@@ -1,0 +1,27 @@
+/**
+ * @section Placeholder
+ * Placeholder content styles
+ */
+
+/**
+ * Setup keyframes for pulsing animation
+ */
+
+@keyframes loadingPlaceholders {
+	0% {
+		color: $color-black;
+	}
+	50% {
+		color: $color-gray-dark;
+	}
+	100% {
+		color: $color-black;
+	}
+}
+
+/**
+ * Style the placeholder
+ */
+.loading {
+	animation: loadingPlaceholders 1.5s ease-in infinite;
+}
