@@ -9,6 +9,7 @@ noIndex: false
 - [Getting Started](#getting-started)
 - [Getting started with WordPress](#getting-started-with-wordpress)
 - [Options and Settings](#options-and-settings)
+- [Styling](#styling)
 - [Setting Up in SquareSpace](#setting-up-in-squarespace)
 - [Examples](#examples)
 - [Support](#support)
@@ -243,6 +244,14 @@ optionsnodogscats="No Dogs/Cats" // Text to display for pets that aren't good wi
 optionsnodogskids="No Dogs/Kids"  // Text to display for pets that aren't good with dogs or kids
 optionsnocatskids="No Cats/Kids" // Text to display for pets that aren't good with cats or kids
 ```
+
+## Styling
+
+Every element in Fetch has a custom class prefixed with `.fetch-*` that you can hook into to nudge-and-tweak the styling.
+
+This is for advanced users only. Please use your browser's Developer Tools to explore the available classes and styling hooks and test changes.
+
+*__Note:__ I cannot provide support for custom style changes outside of [customized layout engagements](https://fetch.gomakethings.com/pricing/#customized-layouts).*
 
 ## Setting Up in SquareSpace
 
