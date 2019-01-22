@@ -266,7 +266,7 @@ To see working examples, [check out the demos](https://fetch.gomakethings.com/de
 
 ## Support
 
-Please [use the issue tracker](https://github.com/cferdinandi/fetch/blob/master/README.md) to report a bug or ask a question.
+Please [use the issue tracker](https://github.com/cferdinandi/fetch-bugs/blob/master/README.md) to report a bug or ask a question.
 
 ## Common Issues
 
