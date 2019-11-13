@@ -8,11 +8,11 @@ layoutWide: false
 isDemo: true
 ---
 
-Fetch automatically generates filters to help visitors sort through your adoptable animals. You can hide certain ones, or hide them altogether using the `showFilters` attribute.
+Fetch automatically generates filters to help visitors sort through your adoptable animals. You can hide certain ones, or hide them altogether using the `showFilters` setting.
 
-<div class="fetch-container">
-	<p class="loading">Loading...</p>
-	<p>If this is taking a while, please see our available pets at <a href="#">/search/pets-for-adoption/?shelter_id%5B0%5D=SHELTER_ID</a>.</p>
+<div data-fetch>
+    <p class="loading"><strong>Loading...</strong></p>
+    <p>If this is taking a while, please see our available pets at <a href="#">https://petfinder.com/search/pets-for-adoption/?shelter_id%5B0%5D=SHELTER_ID</a>.</p>
 </div>
 
 <script>
@@ -24,18 +24,21 @@ Fetch automatically generates filters to help visitors sort through your adoptab
 ## What to put on your site
 
 ```html
-<link rel="stylesheet" type="text/css" href="fetch.css">
-<script src="fetch.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/fetch2.css">
+<script src="/css/fetch2.js"></script>
 
-<div class="fetch-container">
-    Anything you want to display if Fetch isn't supported by the visitor's browser.
+<div data-fetch>
+    <p>Loading...</p>
+    <p>If this is taking a while, please see our available pets at <a href="#">https://petfinder.com/search/pets-for-adoption/?shelter_id%5B0%5D=SHELTER_ID</a>.</p>
 </div>
 
 <script>
-    fetch.init({
-        key: "YOUR API KEY",
-        shelter: "YOUR SHELTER ID",
-        showFilters: false,
+    new Fetch('[data-fetch]', {
+        key: 'YOUR API KEY',
+        secret: 'YOUR API SECRET',
+        shelter: 'YOUR SHELTER ID'
+    }, {
+        showFilters: false
     });
 </script>
 ```
@@ -43,7 +46,8 @@ Fetch automatically generates filters to help visitors sort through your adoptab
 ### If you're using WordPress
 
 ```html
-[fetch key="YOUR API KEY" shelter="YOUR SHELTER ID" showFilters="false"]
-Anything you want to display if Fetch isn't supported by the visitor's browser.
-[/fetch]
+[fetch2 key="YOUR API KEY" secret="YOUR API SECRET" shelter="YOUR SHELTER ID" showfilters="false"]
+<p>Loading...</p>
+<p>If this is taking a while, please see our available pets at <a href="#">https://petfinder.com/search/pets-for-adoption/?shelter_id%5B0%5D=SHELTER_ID</a>.</p>
+[/fetch2]
 ```

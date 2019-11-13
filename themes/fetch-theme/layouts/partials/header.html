@@ -24,7 +24,9 @@
 		<link rel="icon" sizes="16x16 32x32" href="{{ "/img/favicon.ico" | absURL }}"> -->
 
 		<!-- Stylesheet -->
-		<link rel="stylesheet" href="{{ if eq $.Site.Params.cacheBust true }}{{ ( printf "/css/main.min.%s.css" $.Site.Params.version | absURL ) }}{{ else }}{{ "/css/main.css" | absURL }}{{ end }}">
+		<style type="text/css">
+			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/fetch-theme/static/css/main.min.css" | safeCSS }}{{ else }}{{ readFile "/themes/fetch-theme/static/css/main.css" | safeCSS }}{{ end }}
+		</style>
 	</head>
 
 	<body class="type-{{ .Type }} {{ if .IsPage }}page-single{{ else }}page-list{{ end }}" id="page-{{ .UniqueID }}">

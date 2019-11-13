@@ -4,8 +4,7 @@ baseURL: "https://fetch.gomakethings.com"
 # Customer parameters
 params:
   description: "The insanely easy way to display a beautiful, mobile-friendly list of adoptable pets from Petfinder on your website."
-  cacheBust: true
-  version: "1.0.0"
+  minify: true
 
 # The language code for the site
 languageCode: "en-us"
