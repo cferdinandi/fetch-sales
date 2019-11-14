@@ -14,7 +14,6 @@ When showing adopted pets, it's highly recommended that you also set the `limit`
 
 <div data-fetch>
     <p class="loading"><strong>Loading...</strong></p>
-    <p>If this is taking a while, please see our available pets at <a href="#">https://petfinder.com/search/pets-for-adoption/?shelter_id%5B0%5D=SHELTER_ID</a>.</p>
 </div>
 
 <script>
@@ -32,7 +31,6 @@ When showing adopted pets, it's highly recommended that you also set the `limit`
 
 <div data-fetch>
     <p>Loading...</p>
-    <p>If this is taking a while, please see our available pets at <a href="#">https://petfinder.com/search/pets-for-adoption/?shelter_id%5B0%5D=SHELTER_ID</a>.</p>
 </div>
 
 <script>
@@ -51,7 +49,6 @@ When showing adopted pets, it's highly recommended that you also set the `limit`
 
 ```html
 [fetch2 key="YOUR API KEY" secret="YOUR API SECRET" shelter="YOUR SHELTER ID" status="adopted" limit="100"]
-<p>Loading...</p>
-<p>If this is taking a while, please see our available pets at <a href="#">https://petfinder.com/search/pets-for-adoption/?shelter_id%5B0%5D=SHELTER_ID</a>.</p>
+Loading...
 [/fetch2]
 ```

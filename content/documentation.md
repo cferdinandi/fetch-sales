@@ -71,7 +71,7 @@ And that's it, you're done. Nice work!
 
 <div data-fetch>
 	<p>Loading...</p>
-    <p>If this is taking a while, please see our available pets at <a href="#">https://petfinder.com/search/pets-for-adoption/?shelter_id%5B0%5D=AA11</a>.</p>
+    <p>If this is taking a while, please see our available pets at <a href="#">https://petfinder.com/search/pets-for-adoption/?shelter_id=AA11</a>.</p>
 </div>
 
 <script>
@@ -103,7 +103,7 @@ If you're using WordPress, getting started with Fetch is even easier.
 ```html
 [fetch2 key="7zQqMRcGFeznhF3BgyH9" secret="Xb2BphxcUDwmafKFFCEGv" shelter="AA11"]
 	<p>Loading...</p>
-    <p>If this is taking a while, please see our available pets at <a href="#">https://petfinder.com/search/pets-for-adoption/?shelter_id%5B0%5D=AA11</a>.</p>
+    <p>If this is taking a while, please see our available pets at <a href="#">https://petfinder.com/search/pets-for-adoption/?shelter_id=AA11</a>.</p>
 [/fetch]
 ```
 

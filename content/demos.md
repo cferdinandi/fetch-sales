@@ -12,7 +12,6 @@ This is the out-of-the-box implementation of Fetch. All you need is a Petfinder 
 
 <div data-fetch>
 	<p class="loading"><strong>Loading...</strong></p>
-	<p>If this is taking a while, please see our available pets at <a href="#">https://petfinder.com/search/pets-for-adoption/?shelter_id%5B0%5D=SHELTER_ID</a>.</p>
 </div>
 
 <script>
@@ -29,7 +28,6 @@ This is the out-of-the-box implementation of Fetch. All you need is a Petfinder 
 
 <div data-fetch>
     <p>Loading...</p>
-    <p>If this is taking a while, please see our available pets at <a href="#">https://petfinder.com/search/pets-for-adoption/?shelter_id%5B0%5D=SHELTER_ID</a>.</p>
 </div>
 
 <script>
@@ -45,7 +43,6 @@ This is the out-of-the-box implementation of Fetch. All you need is a Petfinder 
 
 ```html
 [fetch2 key="YOUR API KEY" secret="YOUR API SECRET" shelter="YOUR SHELTER ID"]
-<p>Loading...</p>
-<p>If this is taking a while, please see our available pets at <a href="#">https://petfinder.com/search/pets-for-adoption/?shelter_id%5B0%5D=SHELTER_ID</a>.</p>
+Loading...
 [/fetch2]
 ```
