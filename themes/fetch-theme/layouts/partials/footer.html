@@ -8,6 +8,8 @@
 		</footer>
 
 		<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
-		<script src='{{ if eq $.Site.Params.cacheBust true }}{{ ( printf "/js/main.min.%s.js" $.Site.Params.version | absURL ) }}{{ else }}{{ "/js/main.js" | absURL }}{{ end }}'></script>
+		<script>
+			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/fetch-theme/static/js/main.min.js" | safeJS }}{{ else }}{{ readFile "/themes/fetch-theme/static/js/main.js" | safeJS }}{{ end }}
+		</script>
 	</body>
 </html>

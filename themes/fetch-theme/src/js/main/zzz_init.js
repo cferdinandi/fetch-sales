@@ -8,17 +8,17 @@ fluidvids.init({
 	players: ['www.youtube.com', 'player.vimeo.com']
 });
 
-// Smooth scrolling anchor links
-if (document.querySelector('a[href*="#"]')) {
-	var scroll = new SmoothScroll('a[href*="#"]');
-}
-
 // Run Fetch
-if (document.querySelector('.fetch-container')) {
-	if (typeof fetchOptions === 'undefined') {
-		fetchOptions = {};
+if (document.querySelector('[data-fetch]')) {
+	if (typeof fetchCreds === 'undefined') {
+		var fetchCreds = {};
 	}
-	fetchOptions.key = 'f72651cb74b19ac20c6f25adbab93457';
-	fetchOptions.shelter = 'RI77';
-	fetch.init(fetchOptions);
+	if (typeof fetchOptions === 'undefined') {
+		var fetchOptions = {};
+	}
+	fetchCreds.key = 'Wu6Km6ewRxkHi5jGluN6wIM7BoW7ZrFYDgBnhni4qmA3SFFmNQ';
+	fetchCreds.secret = 'WqxhiHyV3q6ui6SOTmFDOl9fkbyV6DVilAvJgRpR';
+	fetchCreds.shelter = 'RI77';
+	// Initialize Fetch
+	new Fetch('[data-fetch]', fetchCreds, fetchOptions);
 }
