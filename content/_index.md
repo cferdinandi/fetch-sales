@@ -9,6 +9,8 @@ noTitle: true
 
 <p class="text-large">The insanely easy way to display a beautiful, mobile-friendly list of adoptable pets from Petfinder on your website.</p>
 
+*Fetch has been completely redesigned with the Petfinder v2. [Learn what's new.](#what-s-new-in-fetch-v2)*
+
 <p class="text-center"><a class="btn btn-large" href="/pricing">Buy It Now</a> <a href="/demos">Or check out the demos...</a></p>
 
 <img src="/img/paws-new-england.jpg" alt="A screenshot of Fetch in action" width="960" height="574" class="aligncenter size-full wp-image-45" />
@@ -28,6 +30,22 @@ Just add two files and a little text to your site. Fetch uses the Petfinder API 
 No ugly iframes or scroller widgets. No expensive developers. Just a beautiful, mobile-friendly list of your pets. [Check out the demos](/demos) to learn more.
 
 ***Note:*** *You will need to [sign up for a free API key from Petfinder.com](https://www.petfinder.com/developers/).*
+
+## What's new in Fetch v2?
+
+Petfinder's v1 API is being retired in January 2020. Fetch has been completely rewritten using the new Petfinder v2 API.
+
+**Here's what's new...**
+
+- It automatically gets all of your pets. You won't need to specific the number of animals to get anymore.
+- You can more easily display different lists on different pages (for example, cats on one page and dogs on another).
+- You can now display lists of pets that have already been adopted, too!
+- If a pet doesn't have images yet, you can provide a default/fallback image to use instead.
+- It's 4x smaller than the older version, which means it will load and run faster.
+
+**Unfortunately, the Petfinder v2 API no longer provides full descriptions for your pets.** As a result, Fetch v2 does not include individual pet views. Clicking on a pet now opens up that animal's profile on the Petfinder website.
+
+Petfinder tells me that this feature is not on their roadmap and they have no current plans to implement it.
 
 ## What content management systems does Fetch work with?
 
