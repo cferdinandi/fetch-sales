@@ -9,7 +9,7 @@ noTitle: true
 
 <p class="text-large">The insanely easy way to display a beautiful, mobile-friendly list of adoptable pets from Petfinder on your website.</p>
 
-*Fetch has been completely redesigned with the Petfinder v2. [Learn what's new.](#what-s-new-in-fetch-v2)*
+*Fetch has been completely redesigned with the Petfinder v2 API. [Learn what's new.](#what-s-new-in-fetch-v2)*
 
 <p class="text-center"><a class="btn btn-large" href="/pricing">Buy It Now</a> <a href="/demos">Or check out the demos...</a></p>
 
