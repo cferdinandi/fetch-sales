@@ -168,7 +168,7 @@ If you're using WordPress, you can provide them as all-lowercase parameters on t
 | Option    | Description     | Default       |
 |-----------|-----------------|---------------|
 | `status`  | Adoption status | `"adoptable"` |
-| `limit`   | Maximum number of pets to display. Use `0` for no limit. | `0`  d|
+| `limit`   | Maximum number of pets to display. Use `0` for no limit. | `0` |
 | `showFilters` | Display pet filters | `true` |
 | `filterSizes` | Show "Sizes" filter | `true` |
 | `filterAges` | Show "Ages" filter | `true` |
