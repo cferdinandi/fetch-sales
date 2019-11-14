@@ -191,8 +191,6 @@ If you're using WordPress, you can provide them as all-lowercase parameters on t
 | `oneSpecies` | Only show pets from a specific species. Use the species name as the value (case-sensitive) | `false` |
 | `newTab` | If true, pet listings will open in a new window or tab | `false` |
 
-For example, you can limit the number of pets display.
-
 ### A customization example
 
 For this example, let's...
