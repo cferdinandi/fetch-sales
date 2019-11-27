@@ -176,6 +176,8 @@ If you're using WordPress, you can provide them as all-lowercase parameters on t
 | `filterSpecies` | Show "Species" filter | `true` |
 | `filterBreeds` | Show "Breeds" filter | `true` |
 | `filterOther` | Show "Other" filter | `true` |
+| `showToggleAll` | Show "Select All Breeds" checkbox | `true` |
+| `toggleAllText` | Text for the "Select All Breeds" checkbox | `"Select All Breeds"` |
 | `filterButtonText` | Text for the "Filter Results" toggle button when filters are hidden | `"Filter Results"` |
 | `filterButtonClass` | Class(es) to add to the "Filter Results" button | `""` |
 | `noImage` | An image URL to use when no photo is available. | `""` |
