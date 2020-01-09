@@ -95,7 +95,7 @@ If you're using WordPress, getting started with Fetch is even easier.
     ```html
     [fetch2 key="YOUR API KEY" secret="YOUR API SECRET" shelter="YOUR SHELTER ID"]
     Whatever you want to show while the pet listings are loading (or if they fail to load).
-    [/fetch]
+    [/fetch2]
     ```
 
 ### A WordPress Example
@@ -104,7 +104,7 @@ If you're using WordPress, getting started with Fetch is even easier.
 [fetch2 key="7zQqMRcGFeznhF3BgyH9" secret="Xb2BphxcUDwmafKFFCEGv" shelter="AA11"]
 	<p>Loading...</p>
     <p>If this is taking a while, please see our available pets at <a href="#">https://petfinder.com/search/pets-for-adoption/?shelter_id=AA11</a>.</p>
-[/fetch]
+[/fetch2]
 ```
 
 
